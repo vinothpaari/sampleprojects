@@ -12,7 +12,7 @@ namespace Gittest1.Controllers
         {
             return View();
         }
-       // test
+        test
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
