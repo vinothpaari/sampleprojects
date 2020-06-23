@@ -16,7 +16,7 @@ variables:
 
 steps:
 - bash:
-       echo "Repo name $(Build.Repositoty.Name)" 
+       echo "Repo name $(Build.Repository.Name)" 
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
